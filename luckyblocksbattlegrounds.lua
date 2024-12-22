@@ -11,7 +11,7 @@ local VirtualUser = game:GetService("VirtualUser")
 
 --Functions--
 local function clearinv()
-   for i = 1, 100 do
+   for i = 1, 1000 do
       local toolDetected = plr.Backpack:FindFirstChildOfClass("Tool")
       if toolDetected then
       toolDetected:Destroy()
@@ -200,12 +200,7 @@ local Input = LB:CreateInput({
    RemoveTextAfterFocusLost = false,
    Flag = "Input1",
    Callback = function(Text)
-   for i = 1, Text do
-      for i = 1, 5 do
-         game:GetService("ReplicatedStorage").SpawnGalaxyBlock:FireServer()
-         game:GetService("ReplicatedStorage").SpawnRainbowBlock:FireServer()
-      end
-   end
+   voidblock()
    end,
 })
 
