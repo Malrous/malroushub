@@ -4,7 +4,7 @@ if game.PlaceId == 662417684 then
       Text = "Loading Script...", 
       Duration = 3 
       })
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Malrous/malroushub/refs/heads/main/luckyblocksbattlegrounds.lua"))()
 else
 game:GetService("StarterGui"):SetCore("SendNotification",{
       Title = "MalrousHub",
