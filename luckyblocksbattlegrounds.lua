@@ -351,7 +351,7 @@ local Button = Misc:CreateButton({
 local Button = Misc:CreateButton({
    Name = "Kick Yourself",
    Callback = function()
-      plr:Kick("Player kicked | MalrousHub")
+      plr:Kick("Player kicked | MalrousHub |")
    end,
 })
 
