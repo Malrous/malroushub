@@ -1,5 +1,4 @@
 print("loaded loadstring | MalrousHub")
-
 local plrs = game:GetService("Players")
 local plr = plrs.LocalPlayer
 local root = plr.Character.HumanoidRootPart
